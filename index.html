@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LERA GARCIA | BSIT Student Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Share+Tech+Mono&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-ring"></div>
+            <div class="loader-ring"></div>
+            <div class="loader-ring"></div>
+        </div>
+        <p class="loading-text">INITIALIZING...</p>
+    </div>
+
+    <!-- Particle Background -->
+    <canvas id="particles"></canvas>
+
+    <!-- Mouse Glow Effect -->
+    <div id="mouse-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <div class="nav-avatar">
+                <img src="C:\Users\LERA GARCIA\Downloads\Untitled design.jpg" alt="Lera Garcia">
+            </div>
+            <span>LG</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">LERA GARCIA</h1>
+            <p class="hero-subtitle">Bachelor of Science in Information Technology (BSIT) Student</p>
+            <p class="hero-tagline"><span class="typing-text"></span><span class="cursor">|</span></p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">About Me</a>
+                <a href="#skills" class="btn btn-secondary">My Skills</a>
+                <a href="#projects" class="btn btn-accent">Funny Projects</a>
+                <a href="#games" class="btn btn-neon">Funny Games</a>
+                <a href="https://www.facebook.com/Sayuri.garcia.8080" target="_blank" class="btn btn-glow">Facebook</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-container">
+                <div class="profile-glass"></div>
+                <div class="profile-glow"></div>
+                <img src="C:\Users\LERA GARCIA\Downloads\Untitled design.jpg" alt="Lera Garcia" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-card glass-card">
+                    <div class="about-header">
+                        <div class="about-avatar">
+                            <img src="C:\Users\LERA GARCIA\Downloads\Untitled design.jpg" alt="Lera Garcia">
+                        </div>
+                        <div class="about-info">
+                            <h3>LERA GARCIA</h3>
+                            <p class="about-course">Bachelor of Science in Information Technology</p>
+                        </div>
+                    </div>
+                    <div class="about-intro">
+                        <p>"I am a BSIT student who is passionate about learning technology. I may still be a beginner, but I believe every small step brings me closer to becoming a successful IT professional. I continue learning with dedication, perseverance, and faith in God."</p>
+                    </div>
+                </div>
+                <div class="education-card glass-card">
+                    <h3 class="card-title">🎓 Education</h3>
+                    <div class="education-item">
+                        <span class="edu-icon">🏫</span>
+                        <div class="edu-info">
+                            <h4>Elementary</h4>
+                            <p>Nangan Elementary School</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <span class="edu-icon">🏫</span>
+                        <div class="edu-info">
+                            <h4>Junior High School</h4>
+                            <p>Nangan National High School</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <span class="edu-icon">🏫</span>
+                        <div class="edu-info">
+                            <h4>Senior High School</h4>
+                            <p>Nangan Senior High School</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bible Verse Section -->
+    <section id="bible" class="section bible-section">
+        <div class="container">
+            <h2 class="section-title">📖 Bible Verses</h2>
+            <div class="bible-grid">
+                <div class="bible-card glass-card">
+                    <div class="bible-icon">✝️</div>
+                    <h3>Jeremiah 29:11</h3>
+                    <p>"For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future."</p>
+                </div>
+                <div class="bible-card glass-card">
+                    <div class="bible-icon">✝️</div>
+                    <h3>Philippians 4:13</h3>
+                    <p>"I can do all things through Christ who strengthens me."</p>
+                </div>
+                <div class="bible-card glass-card">
+                    <div class="bible-icon">✝️</div>
+                    <h3>Proverbs 3:5-6</h3>
+                    <p>"Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight."</p>
+                </div>
+                <div class="bible-card glass-card">
+                    <div class="bible-icon">✝️</div>
+                    <h3>Joshua 1:9</h3>
+                    <p>"Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-card">
+                    <h3 class="category-title">💻 Programming</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>HTML</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="20"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>CSS</span>
+                            <span>15%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="15"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>JavaScript</span>
+                            <span>10%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="10"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Python</span>
+                            <span>10%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="10"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Java</span>
+                            <span>8%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="8"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>C++</span>
+                            <span>5%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="5"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3 class="category-title">🗄️ Database & Other</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>MySQL</span>
+                            <span>10%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="10"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Networking</span>
+                            <span>10%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="10"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>UI Design</span>
+                            <span>15%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="15"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Problem Solving</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="20"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="skills-note">📚 Still learning and improving every day.</p>
+        </div>
+    </section>
+
+    <!-- Funny Achievements Section -->
+    <section id="achievements" class="section achievements-section">
+        <div class="container">
+            <h2 class="section-title">🏆 Funny Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card glass-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Professional Rice Consumer</h3>
+                    <p class="achievement-desc">Master of the rice bowl</p>
+                </div>
+                <div class="achievement-card glass-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Champion of Sleeping During Vacant Time</h3>
+                    <p class="achievement-desc">Nap time expert</p>
+                </div>
+                <div class="achievement-card glass-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Coffee Powered Developer</h3>
+                    <p class="achievement-desc">Running on caffeine</p>
+                </div>
+                <div class="achievement-card glass-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Ctrl+C Ctrl+V Expert</h3>
+                    <p class="achievement-desc">Stack Overflow warrior</p>
+                </div>
+                <div class="achievement-card glass-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Google Search Master</h3>
+                    <p class="achievement-desc">Professional researcher</p>
+                </div>
+                <div class="achievement-card glass-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Debugging Until 2 AM</h3>
+                    <p class="achievement-desc">Persistent problem solver</p>
+                </div>
+                <div class="achievement-card glass-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Certified Midnight Coder</h3>
+                    <p class="achievement-desc">Night owl developer</p>
+                </div>
+                <div class="achievement-card glass-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Can Eat While Coding</h3>
+                    <p class="achievement-desc">Multitasking master</p>
+                </div>
+                <div class="achievement-card glass-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Instant Noodles Expert</h3>
+                    <p class="achievement-desc">Ramen professional</p>
+                </div>
+                <div class="achievement-card glass-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Professional Assignment Survivor</h3>
+                    <p class="achievement-desc">Deadline champion</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Funny Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">🚀 Funny Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card">
+                    <div class="project-icon">🍔</div>
+                    <h3>Food Ordering System</h3>
+                    <p>"Sometimes I order food instead of fixing bugs."</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-icon">🍜</div>
+                    <h3>Instant Noodles Calculator</h3>
+                    <p>"Computes the perfect amount of noodles."</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Math</span>
+                    </div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-icon">🍕</div>
+                    <h3>Unlimited Pizza Tracker</h3>
+                    <p>"Tracks how many slices disappeared."</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Database</span>
+                    </div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-icon">🍗</div>
+                    <h3>Chicken Detector AI</h3>
+                    <p>"Recognizes chicken from 100 meters away."</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">AI</span>
+                    </div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-icon">🍚</div>
+                    <h3>Rice Consumption Database</h3>
+                    <p>"Stores lifetime rice statistics."</p>
+                    <div class="project-tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">PHP</span>
+                    </div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-icon">🍟</div>
+                    <h3>Snack Inventory Management</h3>
+                    <p>"Always shows 'Out of Stock' because I already ate it."</p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Funny Games Section -->
+    <section id="games" class="section games-section">
+        <div class="container">
+            <h2 class="section-title">🎮 Funny Mini Games</h2>
+            <div class="games-grid">
+                <div class="game-card glass-card">
+                    <div class="game-icon">🐔</div>
+                    <h3>Catch the Chicken</h3>
+                    <p>Catch flying chickens!</p>
+                    <button class="btn btn-game" onclick="openGame('chicken')">Play Now</button>
+                </div>
+                <div class="game-card glass-card">
+                    <div class="game-icon">🍔</div>
+                    <h3>Eat the Burger</h3>
+                    <p>Click burgers before they disappear!</p>
+                    <button class="btn btn-game" onclick="openGame('burger')">Play Now</button>
+                </div>
+                <div class="game-card glass-card">
+                    <div class="game-icon">🐛</div>
+                    <h3>Find the Bug</h3>
+                    <p>Find the hidden programming bug!</p>
+                    <button class="btn btn-game" onclick="openGame('bug')">Play Now</button>
+                </div>
+                <div class="game-card glass-card">
+                    <div class="game-icon">🍚</div>
+                    <h3>Rice Collector</h3>
+                    <p>Collect rice, avoid vegetables!</p>
+                    <button class="btn btn-game" onclick="openGame('rice')">Play Now</button>
+                </div>
+                <div class="game-card glass-card">
+                    <div class="game-icon">🎰</div>
+                    <h3>Lucky Spin</h3>
+                    <p>Spin for funny prizes!</p>
+                    <button class="btn btn-game" onclick="openGame('spin')">Play Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Modal -->
+    <div id="game-modal" class="game-modal">
+        <div class="game-content glass-card">
+            <button class="game-close" onclick="closeGame()">✕</button>
+            <div id="game-container"></div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-card glass-card">
+                <div class="contact-info">
+                    <div class="contact-avatar">
+                        <img src="C:\Users\LERA GARCIA\Downloads\Untitled design.jpg" alt="Lera Garcia">
+                    </div>
+                    <h3>LERA GARCIA</h3>
+                    <p class="contact-role">BSIT Student</p>
+                </div>
+                <div class="contact-social">
+                    <a href="https://www.facebook.com/Sayuri.garcia.8080" target="_blank" class="social-btn facebook">
+                        <span>f</span>
+                        Facebook
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Made with ❤️ by <strong>LERA GARCIA</strong></p>
+            <p class="footer-quote">"Keep Learning.<br>Keep Faith.<br>Keep Moving Forward."</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
